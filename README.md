@@ -10,7 +10,11 @@ Skysnare is a drone tracking system that consists of:
 - a web application that allows for monitoring of an area via a map and for the system to be controlled remotely
 
 Below is a video of the larger station tracking a drone as it flies in front of it.
-![](drone_flight.mp4)
+
+
+https://github.com/user-attachments/assets/bb05e158-56e7-4068-bc9c-90517a4a683b
+
+
 The system tracks the drones by utilizing Remote ID, a standard by the FAA requiring drones to broadcast their location via bluetooth and wifi as they are in flight.
 # My work
 My development was focused on the backend in Django and the web application in React.
@@ -19,5 +23,6 @@ All of the captured drone and station data was also stored in an SQLite database
 One of the larger features I developed on the web app was the playback mode. This allowed the user to select a time window and go through the window to see historical drone movements detected by our system.
 
 Here is a demo of the playback mode utilizing data from the test seen above:
-![](playback_mode.mp4)
+
+https://github.com/user-attachments/assets/1b6b7ded-23c2-4e7e-af90-677b6f6f6a79
 
